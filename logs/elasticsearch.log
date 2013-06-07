@@ -1,0 +1,106 @@
+[2013-06-07 11:26:00,777][INFO ][node                     ] [Phoenix] {0.90.1}[1482]: initializing ...
+[2013-06-07 11:26:00,781][INFO ][plugins                  ] [Phoenix] loaded [], sites []
+[2013-06-07 11:26:02,601][INFO ][node                     ] [Phoenix] {0.90.1}[1482]: initialized
+[2013-06-07 11:26:02,601][INFO ][node                     ] [Phoenix] {0.90.1}[1482]: starting ...
+[2013-06-07 11:26:02,668][INFO ][transport                ] [Phoenix] bound_address {inet[/0:0:0:0:0:0:0:0%0:9300]}, publish_address {inet[/192.168.1.187:9300]}
+[2013-06-07 11:26:05,754][INFO ][cluster.service          ] [Phoenix] new_master [Phoenix][DXaFrviDSv-yvxq6v8lEIg][inet[/192.168.1.187:9300]], reason: zen-disco-join (elected_as_master)
+[2013-06-07 11:26:05,793][INFO ][discovery                ] [Phoenix] elasticsearch/DXaFrviDSv-yvxq6v8lEIg
+[2013-06-07 11:26:05,803][INFO ][http                     ] [Phoenix] bound_address {inet[/0:0:0:0:0:0:0:0%0:9200]}, publish_address {inet[/192.168.1.187:9200]}
+[2013-06-07 11:26:05,804][INFO ][node                     ] [Phoenix] {0.90.1}[1482]: started
+[2013-06-07 11:26:05,873][INFO ][gateway                  ] [Phoenix] recovered [0] indices into cluster_state
+[2013-06-07 11:26:09,592][INFO ][node                     ] [Stingray] {0.90.1}[1483]: initializing ...
+[2013-06-07 11:26:09,597][INFO ][plugins                  ] [Stingray] loaded [], sites []
+[2013-06-07 11:26:11,178][INFO ][node                     ] [Stingray] {0.90.1}[1483]: initialized
+[2013-06-07 11:26:11,179][INFO ][node                     ] [Stingray] {0.90.1}[1483]: starting ...
+[2013-06-07 11:26:11,247][INFO ][transport                ] [Stingray] bound_address {inet[/0:0:0:0:0:0:0:0%0:9301]}, publish_address {inet[/192.168.1.187:9301]}
+[2013-06-07 11:26:14,296][INFO ][cluster.service          ] [Stingray] new_master [Stingray][3RL82mAGQxW3yivYeGWDcg][inet[/192.168.1.187:9301]], reason: zen-disco-join (elected_as_master)
+[2013-06-07 11:26:14,336][INFO ][discovery                ] [Stingray] elasticsearch/3RL82mAGQxW3yivYeGWDcg
+[2013-06-07 11:26:14,348][INFO ][http                     ] [Stingray] bound_address {inet[/0:0:0:0:0:0:0:0%0:9201]}, publish_address {inet[/192.168.1.187:9201]}
+[2013-06-07 11:26:14,348][INFO ][node                     ] [Stingray] {0.90.1}[1483]: started
+[2013-06-07 11:26:14,379][INFO ][gateway                  ] [Stingray] recovered [0] indices into cluster_state
+[2013-06-07 11:35:13,088][INFO ][node                     ] [Stingray] {0.90.1}[1483]: stopping ...
+[2013-06-07 11:35:13,118][INFO ][node                     ] [Stingray] {0.90.1}[1483]: stopped
+[2013-06-07 11:35:13,118][INFO ][node                     ] [Stingray] {0.90.1}[1483]: closing ...
+[2013-06-07 11:35:13,126][INFO ][node                     ] [Stingray] {0.90.1}[1483]: closed
+[2013-06-07 11:35:17,903][INFO ][node                     ] [Peepers] {0.90.1}[1537]: initializing ...
+[2013-06-07 11:35:17,908][INFO ][plugins                  ] [Peepers] loaded [], sites []
+[2013-06-07 11:35:19,504][INFO ][node                     ] [Peepers] {0.90.1}[1537]: initialized
+[2013-06-07 11:35:19,504][INFO ][node                     ] [Peepers] {0.90.1}[1537]: starting ...
+[2013-06-07 11:35:19,572][INFO ][transport                ] [Peepers] bound_address {inet[/0:0:0:0:0:0:0:0%0:9301]}, publish_address {inet[/192.168.1.187:9301]}
+[2013-06-07 11:35:22,616][INFO ][cluster.service          ] [Peepers] new_master [Peepers][_yXArEZHQ1SbTT0T8ombtw][inet[/192.168.1.187:9301]], reason: zen-disco-join (elected_as_master)
+[2013-06-07 11:35:22,654][INFO ][discovery                ] [Peepers] elasticsearch/_yXArEZHQ1SbTT0T8ombtw
+[2013-06-07 11:35:22,667][INFO ][http                     ] [Peepers] bound_address {inet[/0:0:0:0:0:0:0:0%0:9201]}, publish_address {inet[/192.168.1.187:9201]}
+[2013-06-07 11:35:22,667][INFO ][node                     ] [Peepers] {0.90.1}[1537]: started
+[2013-06-07 11:35:22,695][INFO ][gateway                  ] [Peepers] recovered [0] indices into cluster_state
+[2013-06-07 11:35:25,815][INFO ][node                     ] [Headknocker] {0.90.1}[1538]: initializing ...
+[2013-06-07 11:35:25,820][INFO ][plugins                  ] [Headknocker] loaded [], sites []
+[2013-06-07 11:35:27,409][INFO ][node                     ] [Headknocker] {0.90.1}[1538]: initialized
+[2013-06-07 11:35:27,409][INFO ][node                     ] [Headknocker] {0.90.1}[1538]: starting ...
+[2013-06-07 11:35:27,485][INFO ][transport                ] [Headknocker] bound_address {inet[/0:0:0:0:0:0:0:0%0:9302]}, publish_address {inet[/192.168.1.187:9302]}
+[2013-06-07 11:35:30,534][INFO ][cluster.service          ] [Headknocker] new_master [Headknocker][n4NJHZ7-RJW1J8H6HE_0TQ][inet[/192.168.1.187:9302]], reason: zen-disco-join (elected_as_master)
+[2013-06-07 11:35:30,572][INFO ][discovery                ] [Headknocker] elasticsearch/n4NJHZ7-RJW1J8H6HE_0TQ
+[2013-06-07 11:35:30,584][INFO ][http                     ] [Headknocker] bound_address {inet[/0:0:0:0:0:0:0:0%0:9202]}, publish_address {inet[/192.168.1.187:9202]}
+[2013-06-07 11:35:30,584][INFO ][node                     ] [Headknocker] {0.90.1}[1538]: started
+[2013-06-07 11:35:30,615][INFO ][gateway                  ] [Headknocker] recovered [0] indices into cluster_state
+[2013-06-07 11:36:30,493][INFO ][node                     ] [Headknocker] {0.90.1}[1538]: stopping ...
+[2013-06-07 11:36:30,518][INFO ][node                     ] [Headknocker] {0.90.1}[1538]: stopped
+[2013-06-07 11:36:30,518][INFO ][node                     ] [Headknocker] {0.90.1}[1538]: closing ...
+[2013-06-07 11:36:30,526][INFO ][node                     ] [Headknocker] {0.90.1}[1538]: closed
+[2013-06-07 11:36:32,371][INFO ][node                     ] [Bloodlust II] {0.90.1}[1556]: initializing ...
+[2013-06-07 11:36:32,376][INFO ][plugins                  ] [Bloodlust II] loaded [], sites []
+[2013-06-07 11:36:33,968][INFO ][node                     ] [Bloodlust II] {0.90.1}[1556]: initialized
+[2013-06-07 11:36:33,969][INFO ][node                     ] [Bloodlust II] {0.90.1}[1556]: starting ...
+[2013-06-07 11:36:34,039][INFO ][transport                ] [Bloodlust II] bound_address {inet[/0:0:0:0:0:0:0:0%0:9302]}, publish_address {inet[/192.168.1.187:9302]}
+[2013-06-07 11:36:37,082][INFO ][cluster.service          ] [Bloodlust II] new_master [Bloodlust II][dNuYn6E5TDu-xKdiPp6gkA][inet[/192.168.1.187:9302]], reason: zen-disco-join (elected_as_master)
+[2013-06-07 11:36:37,116][INFO ][discovery                ] [Bloodlust II] elasticsearch/dNuYn6E5TDu-xKdiPp6gkA
+[2013-06-07 11:36:37,128][INFO ][http                     ] [Bloodlust II] bound_address {inet[/0:0:0:0:0:0:0:0%0:9202]}, publish_address {inet[/192.168.1.187:9202]}
+[2013-06-07 11:36:37,128][INFO ][node                     ] [Bloodlust II] {0.90.1}[1556]: started
+[2013-06-07 11:36:37,156][INFO ][gateway                  ] [Bloodlust II] recovered [0] indices into cluster_state
+[2013-06-07 13:18:05,993][INFO ][node                     ] [Bloodlust II] {0.90.1}[1556]: stopping ...
+[2013-06-07 13:18:06,107][INFO ][node                     ] [Bloodlust II] {0.90.1}[1556]: stopped
+[2013-06-07 13:18:06,107][INFO ][node                     ] [Bloodlust II] {0.90.1}[1556]: closing ...
+[2013-06-07 13:18:06,146][INFO ][node                     ] [Bloodlust II] {0.90.1}[1556]: closed
+[2013-06-07 13:18:20,573][INFO ][node                     ] [Flubber] {0.90.1}[2050]: initializing ...
+[2013-06-07 13:18:20,585][INFO ][plugins                  ] [Flubber] loaded [], sites []
+[2013-06-07 13:18:23,310][INFO ][node                     ] [Flubber] {0.90.1}[2050]: initialized
+[2013-06-07 13:18:23,311][INFO ][node                     ] [Flubber] {0.90.1}[2050]: starting ...
+[2013-06-07 13:18:23,407][INFO ][transport                ] [Flubber] bound_address {inet[/0:0:0:0:0:0:0:0%0:9302]}, publish_address {inet[/192.168.1.187:9302]}
+[2013-06-07 13:18:26,562][INFO ][cluster.service          ] [Flubber] new_master [Flubber][CGkIJbQRRySmJS6m_8CWWQ][inet[/192.168.1.187:9302]], reason: zen-disco-join (elected_as_master)
+[2013-06-07 13:18:26,608][INFO ][discovery                ] [Flubber] elasticsearch/CGkIJbQRRySmJS6m_8CWWQ
+[2013-06-07 13:18:26,621][INFO ][http                     ] [Flubber] bound_address {inet[/0:0:0:0:0:0:0:0%0:9202]}, publish_address {inet[/192.168.1.187:9202]}
+[2013-06-07 13:18:26,621][INFO ][node                     ] [Flubber] {0.90.1}[2050]: started
+[2013-06-07 13:18:26,680][INFO ][gateway                  ] [Flubber] recovered [0] indices into cluster_state
+[2013-06-07 13:18:34,713][INFO ][node                     ] [Flubber] {0.90.1}[2050]: stopping ...
+[2013-06-07 13:18:34,744][INFO ][node                     ] [Flubber] {0.90.1}[2050]: stopped
+[2013-06-07 13:18:34,745][INFO ][node                     ] [Flubber] {0.90.1}[2050]: closing ...
+[2013-06-07 13:18:34,754][INFO ][node                     ] [Flubber] {0.90.1}[2050]: closed
+[2013-06-07 14:13:48,801][INFO ][node                     ] [Authority] {0.90.1}[2606]: initializing ...
+[2013-06-07 14:13:48,806][INFO ][plugins                  ] [Authority] loaded [], sites []
+[2013-06-07 14:13:50,505][INFO ][node                     ] [Authority] {0.90.1}[2606]: initialized
+[2013-06-07 14:13:50,505][INFO ][node                     ] [Authority] {0.90.1}[2606]: starting ...
+[2013-06-07 14:13:50,579][INFO ][transport                ] [Authority] bound_address {inet[/0:0:0:0:0:0:0:0%0:9302]}, publish_address {inet[/192.168.1.187:9302]}
+[2013-06-07 14:13:53,623][INFO ][cluster.service          ] [Authority] new_master [Authority][Ai8XoYSgRT-IwPKvdP0R3Q][inet[/192.168.1.187:9302]], reason: zen-disco-join (elected_as_master)
+[2013-06-07 14:13:53,667][INFO ][discovery                ] [Authority] elasticsearch/Ai8XoYSgRT-IwPKvdP0R3Q
+[2013-06-07 14:13:53,679][INFO ][http                     ] [Authority] bound_address {inet[/0:0:0:0:0:0:0:0%0:9202]}, publish_address {inet[/192.168.1.187:9202]}
+[2013-06-07 14:13:53,679][INFO ][node                     ] [Authority] {0.90.1}[2606]: started
+[2013-06-07 14:13:53,708][INFO ][gateway                  ] [Authority] recovered [0] indices into cluster_state
+[2013-06-07 14:14:09,266][INFO ][cluster.metadata         ] [Phoenix] [twitter] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2013-06-07 14:14:10,272][INFO ][cluster.metadata         ] [Phoenix] [twitter] update_mapping [tweet] (dynamic)
+[2013-06-07 14:14:49,708][INFO ][node                     ] [Authority] {0.90.1}[2606]: stopping ...
+[2013-06-07 14:14:49,734][INFO ][node                     ] [Authority] {0.90.1}[2606]: stopped
+[2013-06-07 14:14:49,734][INFO ][node                     ] [Authority] {0.90.1}[2606]: closing ...
+[2013-06-07 14:14:49,743][INFO ][node                     ] [Authority] {0.90.1}[2606]: closed
+[2013-06-07 15:23:04,366][INFO ][node                     ] [Pressure] {0.90.1}[3446]: initializing ...
+[2013-06-07 15:23:04,381][INFO ][plugins                  ] [Pressure] loaded [], sites []
+[2013-06-07 15:23:06,097][INFO ][node                     ] [Pressure] {0.90.1}[3446]: initialized
+[2013-06-07 15:23:06,097][INFO ][node                     ] [Pressure] {0.90.1}[3446]: starting ...
+[2013-06-07 15:23:06,166][INFO ][transport                ] [Pressure] bound_address {inet[/0:0:0:0:0:0:0:0%0:9302]}, publish_address {inet[/192.168.1.187:9302]}
+[2013-06-07 15:23:09,238][INFO ][cluster.service          ] [Pressure] new_master [Pressure][TlYXcNw0Q3Wf74upfQmrkQ][inet[/192.168.1.187:9302]], reason: zen-disco-join (elected_as_master)
+[2013-06-07 15:23:09,266][INFO ][discovery                ] [Pressure] elasticsearch/TlYXcNw0Q3Wf74upfQmrkQ
+[2013-06-07 15:23:09,277][INFO ][http                     ] [Pressure] bound_address {inet[/0:0:0:0:0:0:0:0%0:9202]}, publish_address {inet[/192.168.1.187:9202]}
+[2013-06-07 15:23:09,277][INFO ][node                     ] [Pressure] {0.90.1}[3446]: started
+[2013-06-07 15:23:09,305][INFO ][gateway                  ] [Pressure] recovered [0] indices into cluster_state
+[2013-06-07 15:24:28,195][INFO ][node                     ] [Pressure] {0.90.1}[3446]: stopping ...
+[2013-06-07 15:24:28,217][INFO ][node                     ] [Pressure] {0.90.1}[3446]: stopped
+[2013-06-07 15:24:28,217][INFO ][node                     ] [Pressure] {0.90.1}[3446]: closing ...
+[2013-06-07 15:24:28,224][INFO ][node                     ] [Pressure] {0.90.1}[3446]: closed
