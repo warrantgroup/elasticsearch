@@ -104,3 +104,19 @@
 [2013-06-07 15:24:28,217][INFO ][node                     ] [Pressure] {0.90.1}[3446]: stopped
 [2013-06-07 15:24:28,217][INFO ][node                     ] [Pressure] {0.90.1}[3446]: closing ...
 [2013-06-07 15:24:28,224][INFO ][node                     ] [Pressure] {0.90.1}[3446]: closed
+[2013-08-01 15:15:42,585][INFO ][node                     ] [Cloud] {0.90.1}[14583]: initializing ...
+[2013-08-01 15:15:42,590][INFO ][plugins                  ] [Cloud] loaded [], sites []
+[2013-08-01 15:15:44,729][INFO ][node                     ] [Cloud] {0.90.1}[14583]: initialized
+[2013-08-01 15:15:44,729][INFO ][node                     ] [Cloud] {0.90.1}[14583]: starting ...
+[2013-08-01 15:15:44,956][INFO ][transport                ] [Cloud] bound_address {inet[/0:0:0:0:0:0:0:0%0:9305]}, publish_address {inet[/192.168.1.102:9305]}
+[2013-08-01 15:15:48,226][INFO ][cluster.service          ] [Cloud] new_master [Cloud][80pdb_37TuCFMfuVadzZoQ][inet[/192.168.1.102:9305]], reason: zen-disco-join (elected_as_master)
+[2013-08-01 15:15:48,247][INFO ][discovery                ] [Cloud] elasticsearch/80pdb_37TuCFMfuVadzZoQ
+[2013-08-01 15:15:48,301][INFO ][http                     ] [Cloud] bound_address {inet[/0:0:0:0:0:0:0:0%0:9205]}, publish_address {inet[/192.168.1.102:9205]}
+[2013-08-01 15:15:48,302][INFO ][node                     ] [Cloud] {0.90.1}[14583]: started
+[2013-08-01 15:15:49,525][INFO ][gateway                  ] [Cloud] recovered [1] indices into cluster_state
+[2013-08-01 15:15:50,020][WARN ][discovery.zen.ping.multicast] [Cloud] received ping response ping_response{target [[Scarlet Centurion][lJyiS7v3QSqTwwCTQdKfaA][inet[/192.168.1.203:9301]]], master [[Omega the Unknown][p4CIPCyDSm6ylYywsOSV9Q][inet[/192.168.1.203:9300]]], cluster_name[elasticsearch]} with no matching id [1]
+[2013-08-01 15:15:50,020][WARN ][discovery.zen.ping.multicast] [Cloud] received ping response ping_response{target [[Omega the Unknown][p4CIPCyDSm6ylYywsOSV9Q][inet[/192.168.1.203:9300]]], master [[Omega the Unknown][p4CIPCyDSm6ylYywsOSV9Q][inet[/192.168.1.203:9300]]], cluster_name[elasticsearch]} with no matching id [1]
+[2013-08-01 15:15:58,249][INFO ][node                     ] [Cloud] {0.90.1}[14583]: stopping ...
+[2013-08-01 15:15:58,317][INFO ][node                     ] [Cloud] {0.90.1}[14583]: stopped
+[2013-08-01 15:15:58,317][INFO ][node                     ] [Cloud] {0.90.1}[14583]: closing ...
+[2013-08-01 15:15:58,341][INFO ][node                     ] [Cloud] {0.90.1}[14583]: closed
