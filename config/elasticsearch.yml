@@ -37,7 +37,7 @@
 # Node names are generated dynamically on startup, so you're relieved
 # from configuring them manually. You can tie this node to a specific name:
 #
-# node.name: "Franz Kafka"
+node.name: "Warrant Group"
 
 # Every node can be configured to allow or deny being eligible as the master,
 # and to allow or deny to store the data.
@@ -84,7 +84,7 @@
 
 # By default, multiple nodes are allowed to start from the same installation location
 # to disable it, set the following:
-# node.max_local_storage_nodes: 1
+node.max_local_storage_nodes: 2
 
 
 #################################### Index ####################################
@@ -179,7 +179,7 @@
 #
 # Set this property to true to lock the memory:
 #
-# bootstrap.mlockall: true
+bootstrap.mlockall: true
 
 # Make sure that the ES_MIN_MEM and ES_MAX_MEM environment variables are set
 # to the same value, and that the machine has enough memory to allocate
@@ -198,7 +198,7 @@
 
 # Set the bind address specifically (IPv4 or IPv6):
 #
-# network.bind_host: 192.168.0.1
+# network.bind_host: 127.0.0.1
 
 # Set the address other nodes will use to communicate with this node. If not
 # set, it is automatically derived. It must point to an actual IP address.
@@ -207,11 +207,11 @@
 
 # Set both 'bind_host' and 'publish_host':
 #
-# network.host: 192.168.0.1
+network.host: 127.0.0.1
 
 # Set a custom port for the node to node communication (9300 by default):
 #
-# transport.tcp.port: 9300
+transport.tcp.port: 9300
 
 # Enable compression for all communication between nodes (disabled by default):
 #
@@ -219,7 +219,7 @@
 
 # Set a custom port to listen for HTTP traffic:
 #
-# http.port: 9200
+http.port: 9200
 
 # Set a custom allowed content length:
 #
@@ -305,7 +305,7 @@
 # Set this option to a higher value on a slow or congested network
 # to minimize discovery failures:
 #
-# discovery.zen.ping.timeout: 3s
+discovery.zen.ping.timeout: 5s
 
 # See <http://elasticsearch.org/guide/reference/modules/discovery/zen.html>
 # for more information.
