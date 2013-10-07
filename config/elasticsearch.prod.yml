@@ -29,7 +29,7 @@
 # Cluster name identifies your cluster for auto-discovery. If you're running
 # multiple clusters on the same network, make sure you're using unique names.
 #
-# cluster.name: elasticsearch
+cluster.name: "Warrant Group Dev"
 
 
 #################################### Node #####################################
@@ -211,7 +211,7 @@ network.host: 127.0.0.1
 
 # Set a custom port for the node to node communication (9300 by default):
 #
-transport.tcp.port: 9300
+transport.tcp.port: 9301
 
 # Enable compression for all communication between nodes (disabled by default):
 #
@@ -219,7 +219,7 @@ transport.tcp.port: 9300
 
 # Set a custom port to listen for HTTP traffic:
 #
-http.port: 9200
+http.port: 9201
 
 # Set a custom allowed content length:
 #
